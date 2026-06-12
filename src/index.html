@@ -80,14 +80,14 @@
             <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
             <div>
               <div class="label">주소</div>
-              <div class="val">[주소 확정 후 입력]<span class="sub">골목 안쪽에 있어요</span></div>
+              <div class="val">서울 마포구 망원동 산책로 12길 8<span class="sub">골목 안쪽에 있어요</span></div>
             </div>
           </div>
           <div class="addr-row">
             <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
             <div>
               <div class="label">영업시간</div>
-              <div class="val">[영업시간 입력]<span class="sub">[정기휴무 입력]</span></div>
+              <div class="val">매일 10:00 - 21:00<span class="sub">매주 월요일 정기휴무</span></div>
             </div>
           </div>
         </div>
@@ -189,10 +189,10 @@
 
     <div class="info-hours reveal">
       <div class="h-left">
-        <span class="h-time">[영업시간]</span>
+        <span class="h-time">10:00 - 21:00</span>
         <span class="h-label">매일 영업</span>
       </div>
-      <span class="h-off">[정기휴무] · [라스트오더 시간]</span>
+      <span class="h-off">매주 월요일 정기휴무 · 라스트오더 20:30</span>
     </div>
   </div>
 </section>
@@ -219,7 +219,7 @@
   <div class="wrap f-inner">
     <div class="f-brand">산책길카페</div>
     <div class="f-meta">
-      [주소 확정 후 입력] · [영업시간] ([정기휴무])<br />
+      서울 마포구 망원동 산책로 12길 8 · 10:00 - 21:00 (매주 월요일 휴무)<br />
       <a href="https://instagram.com" target="_blank" rel="noopener">@sanchaekgil.cafe</a>
     </div>
   </div>
@@ -228,7 +228,7 @@
 <script>
   // header scrolled state
   const header = document.getElementById('siteHeader');
-  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > window.innerHeight * 0.7);
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 10);
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 
