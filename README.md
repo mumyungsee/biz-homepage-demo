@@ -3,7 +3,7 @@ id: proj-cafedemo-001
 slug: cafe-demo
 created: "2026-06-11T20:25:00+09:00"
 공개: true
-status: 진행중
+status: 완성
 type: 프로젝트
 태그: [소상공인, 홈페이지, 바이브코딩, 11월강의]
 title: 소상공인 홈페이지 제작 (산책길카페 데모)
